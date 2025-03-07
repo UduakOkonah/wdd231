@@ -1,17 +1,24 @@
 @media (min-width: 640px) {
-    nav ul {
+
+    nav{
+        height: 30px;
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+
+    #menu {
+        display: flex !important; /* Force it to show */
+        flex-direction: row !important;
         justify-content: center;
+        gap: 20px;
     }
 
-nav{
-    height: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
     nav ul li {
         margin: 0 20px;
+        display: block;
+        max-width: 400px;
     }
 
     header span {
@@ -20,7 +27,7 @@ nav{
     } 
 
     nav ul li a {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #menu-toggle {
@@ -31,6 +38,10 @@ nav{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    h1{
+  width: 100%;
     }
 
     section {
