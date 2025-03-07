@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        width: 45%;
+    }
+
+    
+}
