@@ -1,18 +1,25 @@
 const courses = [
-    { name: "CSE 110", type: "CSE", completed: true },
-    { name: "CSE 111", type: "CSE", completed: false },
-    { name: "CSE 210", type: "CSE", completed: false },
-    { name: "WDD 130", type: "WDD", completed: false },
-    { name: "WDD 131", type: "WDD", completed: true },
-    { name: "WDD 231", type: "WDD", completed: false },
+    { name: "CSE 110", type: "CSE", credits: 2, completed: true },
+    { name: "CSE 111", type: "CSE", credits: 2, completed: true },
+    { name: "CSE 210", type: "CSE", credits: 2, completed: true },
+    { name: "WDD 130", type: "WDD", credits: 2, completed: true },
+    { name: "WDD 131", type: "WDD", credits: 2, completed: false },
+    { name: "WDD 231", type: "WDD", credits: 2, completed: false },
 ];
 
 function displayCourses(filter = "All") {
     const courseContainer = document.getElementById("courses");
+    const totalCreditsElement = document.getElementById("total-credits");
+    
     courseContainer.innerHTML = "";
 
+    // Filter courses
     const filteredCourses = filter === "All" ? courses : courses.filter(course => course.type === filter);
-    
+
+    // Calculate total credits dynamically
+    const totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
+    totalCreditsElement.textContent = `Total Credits: ${totalCredits}`;
+
     filteredCourses.forEach(course => {
         const courseDiv = document.createElement("div");
         courseDiv.textContent = course.name;

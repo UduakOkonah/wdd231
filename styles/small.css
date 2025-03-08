@@ -1,11 +1,11 @@
 /* Global Styles */
 :root {
     --primary-color: #2c3e50;
-    --secondary-color: #000;
-    --background-color: #ecf0f1;
-    --text-color: #2d3436;
-    --accent-color: #2b2dc0;
-    --light-gray: #bdc3c7;
+    --secondary-color: #1a1a1a;
+    --background-color: #f8f9fa;
+    --text-color: #222f3e;
+    --accent-color: #1e3799;
+    --light-gray: ##95a5a6;
 }
  body {
     font-family: 'Raleway', sans-serif;
@@ -23,7 +23,7 @@ header {
     align-items: center;
     padding: 20px;
     justify-content: center;
-    height: 120px;
+    height: 100px;
 }
 
 header img {
@@ -42,7 +42,6 @@ header span {
 }
 
 nav {
-    background-color: var(--secondary-color);
     padding: 1rem;
     margin: 0 auto;
 }
@@ -67,7 +66,7 @@ nav ul li {
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 1rem;
+    background-color: var(--secondary-color);
 }  
 
 #menu {
@@ -82,13 +81,14 @@ nav ul li {
 }
 
 #menu-toggle {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     border: none;
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
-    width: 100%;
-    text-align: left;
+    /* width: 100%; */
+    text-align: right;
+    margin-left: 2rem;
 }
 
 /* Show menu when active */
@@ -170,7 +170,17 @@ h2 {
     font-weight: bold;
     border-radius: 5px;
     margin: 6px 0; 
+    transition: 0.3s;
 }
+
+
+.total-credits {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+  
 
 footer {
     text-align: center;

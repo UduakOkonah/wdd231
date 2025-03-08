@@ -1,6 +1,7 @@
 @media (min-width: 640px) {
 
     nav{
+        background-color: var(--secondary-color);
         height: 30px;
         display: flex;
         justify-content: space-evenly;
