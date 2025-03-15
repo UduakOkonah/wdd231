@@ -14,7 +14,6 @@
     ul.menuLinks {
         display: flex !important;
         gap: 1rem;
-        background-color: #008000;
     }
 
     ul.menuLinks li {
@@ -22,38 +21,18 @@
     }
 
     ul.menuLinks a {
-        color: white;
-        text-decoration: none;
         padding: 0.5rem 1rem;
         font-weight: bold;
         border-radius: 5px;
 
     }
 
-    ul.menuLinks a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
      /*Header Styling for Large Screens */
      header {
-        display: flex;
-        align-items: center;
-        background-color: var(--primary-color);
         padding: 1.5rem 5%;
-        color: white;
         justify-content: space-between;
     }
 
-    header img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-    }
-
-    header span {
-        font-size: .5rem;
-        font-weight: bold;
-    }
 
     /* Buttons stay centered on large screens */
     .view-buttons {

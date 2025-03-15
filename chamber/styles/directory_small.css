@@ -35,8 +35,8 @@ header {
 }
 
 .logo-container img {
-  margin-right: 10px; /* Adds spacing between the image and the text */
-  height: 50px; /* Adjust the image size as needed */
+  margin-right: 10px; 
+  height: 50px; 
 }
 
 .logo-container span {
@@ -49,7 +49,7 @@ header {
 nav {
   background-color: var(--primary-color);
   padding: 1rem;
-  position: relative;
+
 }
 
 /*Hamburger Button */
@@ -61,7 +61,6 @@ nav {
   cursor: pointer;
   width: 100%;
   padding: .25rem 2vw;
-  margin-left: 10rem;
 }
 
 
@@ -73,15 +72,16 @@ ul.menuLinks {
   text-align: center;
 }
 
-ul.menuLinks li {
-  padding: 0.5rem;
-}
-
 ul.menuLinks li a {
   display: block;
   padding: .75rem 2vw;
   color: #fff;
   text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+ul.menuLinks a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /*Active Menu Item */
@@ -111,7 +111,7 @@ main {
   text-align: center;
 }
 
-main h2 {
+main h1 {
   font-size: 2rem;
   font-weight: bold;
   color: var(--primary-color);
@@ -163,9 +163,8 @@ main h2 {
   box-shadow: var(--shadow);
   transition: var(--transition);
   border: 1px solid var(--primary-color);
-  border-radius: 10px;
+  border-radius: 1px;
   padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -177,7 +176,7 @@ main h2 {
 .business-card img {
   width: 80px; 
   height: 80px;
-  border-radius: 10px;
+  border-radius: 50px;
   margin-right: 1rem;
 }
 
@@ -206,56 +205,12 @@ main h2 {
   padding: 20px;
 }
 
-.list-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  margin-bottom: 15px;
-  background: var(--card-bg);
-  border: 1px solid var(--primary-color);
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.list-card img {
-  width: 80px;
-  height: 80px;
-  margin-right: 15px;
-  border-radius: 5px;
-}
-
-.list-card h3, .list-card p {
-  margin: 0;
-}
-
-.list-card a {
-  margin-left: auto; /* Push the button to the end */
-  text-decoration: none;
-  background: var(--primary-color);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: var(--transition);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.list-card a:hover {
-  background: var(--secondary-color);
-  transform: translateY(-2px);
-}
-
-
 /* FOOTER */
 footer {
   background-color: var(--primary-color);
   color: var(--footer-text);
   text-align: center;
-}
-
-.footer-container {
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -269,7 +224,6 @@ footer {
 
 .social-icons a {
   color: #fff;
-  font-size: 3.2rem;
   margin: 0 0.5rem;
   text-decoration: none;
   align-items: center;
@@ -292,17 +246,7 @@ footer {
     animation: fadeIn 0.6s ease-in-out;
 }
 
-/* Menu Links with Animation */
-ul.menuLinks li a {
-  display: block;
-  padding: 0.75rem 2vw;
-  color: #fff;
-  text-decoration: none;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
 /* Hover Effect */
 ul.menuLinks li a:hover {
-  color: var(--secondary-color); /* Change to secondary color */
-  transform: scale(1.1); /* Slightly enlarge the link */
+  color: var(--secondary-color); 
 }
