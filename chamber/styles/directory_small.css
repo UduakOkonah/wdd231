@@ -1,0 +1,308 @@
+:root {
+  --primary-color: #008000; 
+  --secondary-color: #FFA500; 
+  --background-color: #faf9f0; 
+  --text-color: #4A4A4A; 
+ --card-bg: #fff;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --radius: 10px;
+  --transition: all 0.3s ease-in-out;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔹 Header Styling */
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  margin-right: 10px; /* Adds spacing between the image and the text */
+  height: 50px; /* Adjust the image size as needed */
+}
+
+.logo-container span {
+  font-size: 1.2em; /* Adjust the text size */
+  font-weight: bold;
+}
+
+
+/* Navigation */
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  position: relative;
+}
+
+/*Hamburger Button */
+#myButton {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  padding: .25rem 2vw;
+  margin-left: 10rem;
+}
+
+
+/* Menu Links */
+ul.menuLinks {
+  display: none;
+  list-style-type: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+ul.menuLinks li {
+  padding: 0.5rem;
+}
+
+ul.menuLinks li a {
+  display: block;
+  padding: .75rem 2vw;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Active Menu Item */
+li.current-menu-item a {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Show Menu When Button is Clicked */
+ul.menuLinks.open {
+  display: block;
+}
+
+/* Hide Hamburger Icon When Open */
+#myButton.open {
+  visibility: hidden; 
+}
+
+
+#myButton.open::before {
+  content: "✖"; 
+  visibility: visible; 
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 10px;
+}
+
+
+/* Buttons */
+.view-buttons button {
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow);
+  margin: 10px;
+}
+
+.view-buttons button:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Center the buttons */
+#gridView, #listView {
+  display: inline-flex;
+}
+
+/* Directory Grid */
+#directory {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Business Cards */
+.business-card {
+  background: var(--card-bg);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.business-card img {
+  width: 80px; 
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+/* Visit Website Button */
+.business-card a {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  padding: 10px 15px;
+  border-radius: var(--radius);
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+}
+
+.business-card a:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* List View */
+#directory.list-view {
+  display: block; 
+  padding: 20px;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: var(--card-bg);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.list-card h3, .list-card p {
+  margin: 0;
+}
+
+.list-card a {
+  margin-left: auto; /* Push the button to the end */
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-card a:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+
+/* FOOTER */
+footer {
+  background-color: var(--primary-color);
+  color: var(--footer-text);
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 3.2rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply Animation to Cards */
+.business-card, .list-card {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Menu Links with Animation */
+ul.menuLinks li a {
+  display: block;
+  padding: 0.75rem 2vw;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+ul.menuLinks li a:hover {
+  color: var(--secondary-color); /* Change to secondary color */
+  transform: scale(1.1); /* Slightly enlarge the link */
+}

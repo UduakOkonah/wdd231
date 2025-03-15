@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business directory for the Uyo Chamber of Commerce">
+    <meta name="author" content="Uduakobong Lawrence Okonah">
+    <!-- Facebook Open Graph Meta -->
+    <meta property="og:title" content="Chamber Directory - Uyo">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourwebsite.com/images/preview.jpg">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/directory.html">    
+    <title>Chamber Directory - Uyo</title>
+    <!-- styles links -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory_large.css">
+    <link rel="stylesheet" href="styles/directory_small.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="https://kit.fontawesome.com/ed4ce25ef3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpeg" alt="Chamber Logo">
+            <span>Uyo Chamber of Commerce</span>
+        </div>
+    <nav>
+        <button id="myButton">&#9776;</button>
+        <ul class="menuLinks">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li class="currrent-menu-item"><a href="#">Directory</a></li>
+            <li><a href="#" title="join">Join</a></li>
+            <li><a href="#" title="Discover">Discover</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2>Business Directory</h2>
+        <div class="view-buttons">
+            <button id="gridView"><i class="fas fa-th"></i></button>
+            <button id="listView"><i class="fas fa-list"></i></button>
+        </div>
+        <section id="directory" class="grid-view">
+            <!-- Business cards will be dynamically inserted here -->
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <p><b>Uyo Chamber of Commerce</b></p>
+                <p>123 Commerce St, Uyo, AK, 77532</p>
+                <p>Contact: info@uyocc.org</p>
+                <p>Phone: (223) 555-2300</p>
+            </div>
+            <div class="footer-column">
+                <div class="footer-column">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/uduakobong-okonah-b5bb96252/v" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://web.facebook.com/Uduaktechjourney" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Uduakobong15904" title="X"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="footer-column">
+                <p>WDD 231 Class Project</p>
+                <p>Uduakobong Okonah</p>
+                <p>&copy; <span id="currentYear"></span> Uyo Chamber of Commerce</p>
+                <p>Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

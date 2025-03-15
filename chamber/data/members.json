@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Tech Innovators Nigeria",
+    "address": "15 Akwa Crescent, Uyo, AKS, Nigeria",
+    "phone": "+234 802 345 6789",
+    "website": "https://techinnovators.com.ng",
+    "image": "https://th.bing.com/th/id/OIP.zNdVNXTQY9AwqkOg0afbOwHaEV?rs=1&pid=ImgDetMain",
+    "membership": 3
+  },
+  {
+    "name": "Naija Agro Farms",
+    "address": "25 Greenfield Street, Uyo, AKS, Nigeria",
+    "phone": "+234 909 876 5432",
+    "website": "https://naijaagrofarms.com",
+    "image": "https://th.bing.com/th?q=Agro+Logo+Design&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=NG&setlang=en&adlt=strict&t=1&mw=247",
+    "membership": 2
+  },
+  {
+    "name": "Royal Boutique Hotel",
+    "address": "7 Ibom Plaza Road, Uyo, AKS, Nigeria",
+    "phone": "+234 703 567 8910",
+    "website": "https://royalboutique.com.ng",
+    "image": "https://th.bing.com/th?id=OIP.k5hM0E7Tq5W2mDb76g1xpgHaEF&w=336&h=185&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+    "membership": 3
+  },
+  {
+    "name": "NextGen FinTech Solutions",
+    "address": "12 Bank Road, Uyo, AKS, Nigeria",
+    "phone": "+234 701 234 5678",
+    "website": "https://nextgenfintech.ng",
+    "image": "https://th.bing.com/th/id/OIP.0VrpVfbpZX3qpmhPqm5A5AHaDt?rs=1&pid=ImgDetMain",
+    "membership": 1
+  },
+  {
+    "name": "Akwa Ibom Real Estate",
+    "address": "22 Ewet Housing Estate, Uyo, AKS, Nigeria",
+    "phone": "+234 808 765 4321",
+    "website": "https://akwaibomrealestate.ng",
+    "image": "https://th.bing.com/th/id/OIP.n1ps8JOYNWVWq14kj8qjKwHaHa?w=153&h=180&c=7&r=0&o=5&pid=1.7",
+    "membership": 2
+  },
+  {
+    "name": "Dangote Group",
+    "address": "1 Alfred Rewane Road, Ikoyi, Lagos, Nigeria",
+    "phone": "+234 700 225 5468",
+    "website": "https://www.dangote.com",
+    "image": "https://th.bing.com/th/id/OIP.vpUVFEnkgxb8w9Pqfty_UwHaEF?w=336&h=185&c=7&r=0&o=5&pid=1.7",
+    "membership": 3,
+    "description": "A leading multinational industrial conglomerate in Nigeria."
+  },
+  {
+    "name": "GTBank",
+    "address": "Plot 635 Akin Adesola Street, Victoria Island, Lagos",
+    "phone": "+234 802 900 2900",
+    "website": "https://www.gtbank.com",
+    "image": "https://th.bing.com/th/id/R.8a3f4964458a504dc4882ebcc6c90360?rik=LSCy7kslWsg20A&riu=http%3a%2f%2f2.bp.blogspot.com%2f-nLY1iPb0Nq4%2fUa7wgnHWOfI%2fAAAAAAAAB8c%2f8n5vmGoobSU%2fs1600%2fGTBank.jpg&ehk=h76NtdLlf08TrNLnRHposvaB%2fVKigUEiQTlhlP08oBw%3d&risl=&pid=ImgRaw&r=0",
+    "membership": 2,
+    "description": "A top Nigerian bank offering banking and financial services."
+  },
+  {
+    "name": "Jumia Nigeria",
+    "address": "Lagos, Nigeria",
+    "phone": "+234 01 888 1100",
+    "website": "https://www.jumia.com.ng",
+    "image": "https://th.bing.com/th/id/OIP.lY_bTZ-Tq1gdzWGO-0-fXgHaE8?rs=1&pid=ImgDetMain",
+    "membership": 1,
+    "description": "Nigeria’s largest e-commerce platform."
+  },
+  {
+    "name": "Albanny Technologies",
+    "address": "42 Ikot Ekpene - Uyo Rd, Uyo, Akwa Ibom, Nigeria",
+    "phone": "(+234) 123-4567",
+    "website": "https://albannytech.com",
+    "image": "https://th.bing.com/th/id/OIP.WIgVms4FcM66vkciOB4AzgHaF7?w=230&h=185&c=7&r=0&o=5&pid=1.7",
+    "membership": 3
+},
+{
+    "name": "Seal-World Technologies Limited",
+    "address": "14 Gibbs Street, Uyo, Akwa Ibom, Nigeria",
+    "phone": "(+234) 234-5678",
+    "website": "https://sealworld.com.ng",
+    "image": "data:image/jpeg;base64,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",
+    "membership": 2
+},
+{
+    "name": "TECH MITA",
+    "address": "15 Ekpenyong Street, Off Barracks Road, Uyo, Akwa Ibom, Nigeria",
+    "phone": "(+234) 345-6789",
+    "website": "https://techmita.com",
+    "image": "https://techmita.com/wp-content/uploads/2021/07/Tech-Mita-Limited-Intro-Pic-600x690.png",
+    "membership": 1
+},
+{
+    "name": "Wedigraf Technologies",
+    "address": "123 Innovation Hub, Uyo, Akwa Ibom, Nigeria",
+    "phone": "(+234) 456-7890",
+    "website": "https://wedigraf.com",
+    "image": "https://www.wedigraf.com/wp-content/uploads/2024/07/Best-Tech-Training-Hub-in-Port-Harcourt-Rivers-State-Uyo-Akwa-Ibom-State-Best-Computer-Training-School-Best-Computer-Training-Insitute-software-training-port-harcourt-workspace-cetifications.png",
+    "membership": 2
+}
+]

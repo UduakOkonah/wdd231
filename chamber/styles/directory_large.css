@@ -1,0 +1,96 @@
+@media (min-width: 850px){
+    #myButton {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem 5%;
+        height: 30px;
+    }
+
+    ul.menuLinks {
+        display: flex !important;
+        gap: 1rem;
+        background-color: #008000;
+    }
+
+    ul.menuLinks li {
+        list-style: none;
+    }
+
+    ul.menuLinks a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+
+    }
+
+    ul.menuLinks a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+     /*Header Styling for Large Screens */
+     header {
+        display: flex;
+        align-items: center;
+        background-color: var(--primary-color);
+        padding: 1.5rem 5%;
+        color: white;
+        justify-content: space-between;
+    }
+
+    header img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    header span {
+        font-size: .5rem;
+        font-weight: bold;
+    }
+
+    /* Buttons stay centered on large screens */
+    .view-buttons {
+        margin: 30px 0;
+    }
+    
+    /* Grid Layout for Larger Screens */
+    #directory {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 25px;
+    }
+
+    /* Slightly Bigger Cards */
+    .business-card {
+        padding: 25px;
+        border-radius: 12px;
+    }
+
+    .business-card img {
+        max-width: 120px;
+    }
+
+    .business-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .business-card p {
+        font-size: 1.1rem;
+    }
+
+    /* List View Refinement */
+    #list-card {
+        padding: 20px;
+    }
+
+    #list-card img {
+        max-width: 100px;
+    }
+    
+}

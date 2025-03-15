@@ -37,12 +37,11 @@ header span {
     font-weight: bold;
 } 
 
- nav ul {
+nav ul {
 	list-style-type: none;
 }
 
 nav {
-    padding: 1rem;
     margin: 0 auto;
 }
 
