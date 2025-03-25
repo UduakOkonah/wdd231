@@ -1,6 +1,6 @@
 :root {
   --primary-color: #008000; 
-  --secondary-color: #cc7000; 
+  --secondary-color: #FFA500; 
   --background-color: #faf9f0; 
   --text-color: #4A4A4A; 
  --card-bg: #fff;
@@ -502,7 +502,7 @@ h2 {
 
 /* Membership Level Badge */
 .membership-level {
-  color: var(--secondary-color);
+  color: var(--text-color);
   font-weight: bold;
   padding: 0.2rem 0.5rem;
   border-radius: 5px;
