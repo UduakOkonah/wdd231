@@ -305,11 +305,8 @@ main {
     font-weight: bold;
     position: relative;
     animation: pulse 2s infinite;
-}
-
-.join-btn a{
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Button Pulse Effect */
