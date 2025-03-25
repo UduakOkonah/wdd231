@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Business Networking Mixer",
+        "date": "March 28, 2025",
+        "location": "Chamber Hall, Uyo",
+        "description": "Join us for an evening of networking with local business owners and entrepreneurs.",
+        "image": "https://th.bing.com/th/id/OIP.FUUvjeW325lgmDqmkXeqzgHaEK?w=296&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+        "title": "Economic Forum 2025",
+        "date": "April 5, 2025",
+        "location": "City Conference Center, Uyo",
+        "description": "Experts discuss the latest economic trends and opportunities for businesses.",
+        "image": "https://th.bing.com/th/id/OIP.eszO6BP7swP1S-KlWk3tXQHaEo?w=278&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+        "title": "Women in Business Luncheon",
+        "date": "April 15, 2025",
+        "location": "Grand Hotel Ballroom, Uyo",
+        "description": "A luncheon celebrating women entrepreneurs and business leaders.",
+        "image": "https://th.bing.com/th/id/OIP.GLuvjjTGcJAhzEPjESlhqwHaE8?w=294&h=197&c=7&r=0&o=5&pid=1.7"
+    }
+]

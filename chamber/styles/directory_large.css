@@ -41,7 +41,6 @@
     
     /* Grid Layout for Larger Screens */
     #directory {
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 25px;
     }
 
@@ -64,12 +63,20 @@
     }
 
     /* List View Refinement */
-    #list-card {
-        padding: 20px;
+
+    .hero-text h1 {
+        white-space: nowrap;
+        font-size: 2.5rem !important;
+        overflow: hidden;
+        border-right: 3px solid white;
+        animation: typing 3s steps(40, end), blinkCursor 0.75s step-end infinite;
     }
 
-    #list-card img {
-        max-width: 100px;
+    .hero-text p {
+        font-size: 1.2rem !important;
     }
-    
+
+    .weather-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
 }
