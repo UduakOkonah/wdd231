@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply for membership at the Uyo Chamber of Commerce">
+    <meta name="author" content="Uduakobong Lawrence Okonah">
+    
+    <!-- Facebook Open Graph Meta -->
+    <meta property="og:title" content="Uyo Chamber of Commerce - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourwebsite.com/images/preview.jpg">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/directory.html">    
+    <title>Uyo Chamber of Commerce - Membership Application</title>
+    <!-- styles links -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory_large.css">
+    <link rel="stylesheet" href="styles/directory_small.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="https://kit.fontawesome.com/ed4ce25ef3.js" crossorigin="anonymous"></script>
+    <script src="scripts/join.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpeg" alt="Chamber Logo">
+            <span>Uyo Chamber of Commerce</span>
+        </div>
+    <nav>
+        <button id="myButton">&#9776;</button>
+        <ul class="menuLinks">
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li class="currrent-menu-item"><a href="directory.html">Directory</a></li>
+            <li><a href="#" title="join">Join</a></li>
+            <li><a href="#" title="Discover page">Discover</a></li>
+        </ul>
+    </nav>
+    </header>
+
+ 
+    <main class="join">
+        <section class="membership-application">
+            <h1>Membership Application</h1>
+            <form action="thankyou.html" method="get">
+                <label>
+                    First Name:
+                    <input type="text" id="firstName" name="first_name" title="Enter your first name" autocomplete="given-name" required>
+                </label>
+    
+                <label>
+                    Last Name:
+                    <input type="text" id="lastName" name="last_name" title="Enter your last name" autocomplete="family-name" required>
+                </label>
+    
+                <label>
+                    Organizational Title:
+                    <input type="text" id="orgTitle" name="org_title" title="Enter your organizational title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" required>
+                </label>
+    
+                <label>
+                    Email Address:
+                    <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email" placeholder="example@example.com" required>
+                </label>
+    
+                <label>
+                    Mobile Phone Number:
+                    <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" autocomplete="tel" required>
+                </label>
+    
+                <label>
+                    Business/Organization Name:
+                    <input type="text" id="organization" name="organization" title="Enter your organization's name" autocomplete="organization" required>
+                </label>
+    
+                <label>
+                    Membership Level:
+                    <select id="membershipLevel" name="membership_level" title="Select your membership level" required>
+                        <option value="NP">Non-Profit Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+    
+                <label>
+                    Business/Organization Description:
+                    <textarea id="orgDescription" name="org_description" title="Describe your organization"></textarea>
+                </label>
+    
+                <input type="hidden" id="timestamp" name="timestamp">
+    
+                <button class="btn" type="submit">Apply for Membership</button>
+            </form>
+        </section>
+
+        <section class="membership-levels">
+            <div class="membership-card">
+                <h3>Bronze Membership</h3>
+                <p>Basic membership with networking benefits.</p>
+                <button onclick="openModal('bronzeModal')">Learn More</button>
+            </div>
+            
+            <div class="membership-card">
+                <h3>Silver Membership</h3>
+                <p>Enhanced advertising and discounts.</p>
+                <button onclick="openModal('silverModal')">Learn More</button>
+            </div>
+            
+            <div class="membership-card">
+                <h3>Gold Membership</h3>
+                <p>VIP networking and premium exposure.</p>
+                <button onclick="openModal('goldModal')">Learn More</button>
+            </div>
+            
+            <div class="membership-card">
+                <h3>Non-Profit Membership</h3>
+                <p>No fees, just networking benefits.</p>
+                <button onclick="openModal('npModal')">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-column">
+            <p><b>Uyo Chamber of Commerce</b></p>
+            <p>123 Commerce St, Uyo, AK, 77532</p>
+            <p>Contact: info@uyocc.org</p>
+            <p>Phone: (223) 555-2300</p>
+        </div>
+        <div class="footer-column">
+            <div class="footer-column">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/uduakobong-okonah-b5bb96252/v" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://web.facebook.com/Uduaktechjourney" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/Uduakobong15904" title="X"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-column">
+            <p>WDD 231 Class Project</p>
+            <p>Uduakobong Okonah</p>
+            <p>&copy; <span id="currentYear"></span> Uyo Chamber of Commerce</p>
+            <p>Last Updated: <span id="lastModified"></span></p>
+        </div>
+</footer>
+
+   <!-- Modals for Membership Levels -->
+   <!-- Non-Profit Membership Modal -->
+<div id="npModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('npModal')">&times;</span>
+        <h2>Non-Profit Membership</h2>
+        <p>Our Non-Profit Membership is designed for organizations that work towards social good. This free membership provides access to networking opportunities, community events, and exposure to potential collaborators.</p>
+        <ul>
+            <li>No membership fees</li>
+            <li>Access to networking events</li>
+            <li>Free directory listing</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Bronze Membership Modal -->
+<div id="bronzeModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('bronzeModal')">&times;</span>
+        <h2>Bronze Membership</h2>
+        <p>The Bronze Membership is perfect for small businesses looking to expand their network. It provides fundamental benefits, including business exposure and event invitations.</p>
+        <ul>
+            <li>Basic networking opportunities</li>
+            <li>Invitations to chamber events</li>
+            <li>Business listing on our website</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Silver Membership Modal -->
+<div id="silverModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('silverModal')">&times;</span>
+        <h2>Silver Membership</h2>
+        <p>Silver Membership is designed for businesses that want increased visibility and additional advertising perks.</p>
+        <ul>
+            <li>All Bronze benefits</li>
+            <li>Enhanced advertising & directory placement</li>
+            <li>Discounts on events and promotions</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Gold Membership Modal -->
+<div id="goldModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('goldModal')">&times;</span>
+        <h2>Gold Membership</h2>
+        <p>The Gold Membership offers VIP benefits, exclusive sponsorship opportunities, and premium exposure.</p>
+        <ul>
+            <li>All Silver benefits</li>
+            <li>Premium directory placement</li>
+            <li>Featured advertising on homepage</li>
+            <li>Sponsorship opportunities & event recognition</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a40;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #1a1a40;
+  }
+  
+  .subtitle {
+    color: #00c2cb;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  

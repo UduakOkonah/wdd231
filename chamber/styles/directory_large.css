@@ -98,4 +98,111 @@
     .weather-container {
         grid-template-columns: repeat(2, 1fr) !important;
     }
+
+    /* Container Layout */
+.join {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  /* Membership Application (Left Side) */
+  .membership-application {
+    flex: 1;
+    max-width: 500px;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .membership-application h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Styling */
+  .membership-application form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .membership-application label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .membership-application input,
+  .membership-application select,
+  .membership-application textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+  }
+  
+  .membership-application button {
+    margin-top: 15px;
+    background: var(--primary-color);
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .membership-application button:hover {
+    background: var(--accent-color);
+  }
+  
+  /* Membership Levels (Right Side) */
+  .membership-levels {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 60px !important;
+  }
+  
+  .membership-card {
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .membership-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .membership-card p {
+    font-size: 1rem;
+  }
+  
+  .membership-card button {
+    background: white;
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .membership-card button:hover {
+    background: var(--accent-color);
+    color: white;
+  }
 }
