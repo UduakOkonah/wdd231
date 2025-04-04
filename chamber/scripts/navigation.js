@@ -9,3 +9,4 @@ hamburgerElement.addEventListener('click', () => {
         hamburgerElement.innerHTML = "&#9776;"; // Show hamburger icon when closed
     }
 });
+

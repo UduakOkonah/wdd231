@@ -574,6 +574,11 @@ form .btn:hover {
   text-align: center;
 }
 
+.membership-levels h2{
+  background-color: var(--secondary-color);
+
+}
+
 /* Individual Membership Cards */
 .membership-card {
   background: var(--primary-color); /* Your primary color */

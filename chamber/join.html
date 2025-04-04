@@ -78,20 +78,18 @@
                     <input type="text" id="organization" name="organization" title="Enter your organization's name" autocomplete="organization" required>
                 </label>
     
-                <label>
-                    Membership Level:
-                    <select id="membershipLevel" name="membership_level" title="Select your membership level" required>
-                        <option value="NP">Non-Profit Membership</option>
-                        <option value="Bronze">Bronze Membership</option>
-                        <option value="Silver">Silver Membership</option>
-                        <option value="Gold">Gold Membership</option>
-                    </select>
-                </label>
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membership_level" title="Select your membership level" required>
+                    <option value="Non-Profit">Non-Profit Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+                
     
-                <label>
-                    Business/Organization Description:
-                    <textarea id="orgDescription" name="org_description" title="Describe your organization"></textarea>
-                </label>
+                <label for="orgDescription">Business/Organization Description:</label>
+                <textarea id="orgDescription" name="org_description" title="Describe your organization"></textarea>
+                
     
                 <input type="hidden" id="timestamp" name="timestamp">
     
@@ -100,6 +98,7 @@
         </section>
 
         <section class="membership-levels">
+            <h2>Membership Levels</h2>
             <div class="membership-card">
                 <h3>Bronze Membership</h3>
                 <p>Basic membership with networking benefits.</p>
