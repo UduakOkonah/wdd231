@@ -427,7 +427,7 @@ hr {
   margin: 10px 0;
 }
 
-h2 {
+.header h2 {
   background: #333;
   font-size: 1.8rem; 
   font-weight: bold;
@@ -580,6 +580,8 @@ form .btn:hover {
 
 .membership-levels h2{
   background-color: var(--secondary-color);
+  color: #fff;
+  font-size: 1.8rem;
 
 }
 
@@ -734,6 +736,97 @@ form .btn:hover {
       opacity: 1;
   }
 }
+
+main.discover-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ==== CARD CONTAINER ==== */
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* ==== CARD STYLE ==== */
+.cards-container section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+
+.cards-container section:hover {
+  transform: translateY(-5px);
+}
+
+/* ==== CARD ELEMENTS ==== */
+.cards-container h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.cards-container figure {
+  margin: 0.75rem 0;
+}
+
+.cards-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Address and description */
+.cards-container address {
+  font-style: italic;
+  color: var(--secondary-color);
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.cards-container p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* Button */
+.cards-container button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.cards-container button:hover {
+  background-color: #006400;
+}
+
+.visitor-message {
+  background-color:var(--secondary-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+}
+
 
 /* FOOTER */
 footer {

@@ -6,20 +6,22 @@
     <meta name="description" content="Business directory for the Uyo Chamber of Commerce">
     <meta name="author" content="Uduakobong Lawrence Okonah">
     <!-- Facebook Open Graph Meta -->
-    <meta property="og:title" content="Chamber Directory - Uyo">
+    <meta property="og:title" content="Chamber Discovery - Uyo">
     <meta property="og:type" content="website">
-    <meta property="og:image" content=https://github.com/UduakOkonah/wdd231/tree/main/images>
-    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/directory.html">    
-    <title>Chamber Directory - Uyo</title>
+    <meta property="og:image" content="https://github.com/UduakOkonah/wdd231/tree/main/images">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/discover.html">    
+    <title>Chamber Discovery - Uyo</title>
     <!-- styles links -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory_large.css">
     <link rel="stylesheet" href="styles/directory_small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
     <script src="https://kit.fontawesome.com/ed4ce25ef3.js" crossorigin="anonymous"></script>
 
 </head>
@@ -35,20 +37,20 @@
             <li><a href="index.html" title="home">Home</a></li>
             <li class="currrent-menu-item"><a href="directory.html">Directory</a></li>
             <li><a href="join.html" title="join">Join</a></li>
-            <li><a href="discover.html" title="Discover">discover</a></li>
+            <li><a href="#" title="Discover">discover</a></li>
         </ul>
     </nav>
     </header>
-    <main class="head">
-        <h1>Business Directory</h1>
-        <div class="view-buttons">
-            <button id="gridView" aria-label="Grid View"><i class="fas fa-th"></i></button>
-            <button id="listView" aria-label="List View"><i class="fas fa-list"></i></button>
-        </div>
-        <section id="directory" class="grid-view">
-            <!-- Business cards will be dynamically inserted here -->
+
+    <main class="discover-grid">
+        <section class="visitor-message" id="visitor-message">
+          <!-- visitor message will be injected here -->
         </section>
-    </main>
+    
+        <section class="cards-container" id="cards-container">
+          <!-- dynamic cards go here -->
+        </section>
+      </main>
     
     <footer>
         <div class="footer-column">

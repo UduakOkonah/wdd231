@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Ibom Tropicana",
+      "image": "images/tropicana.webp",
+      "address": "Udo Udoma Avenue, Uyo",
+      "description": "A world-class entertainment hub featuring a cinema, mall, and hotels."
+    },
+    {
+      "title": "Unity Park",
+      "image": "images/unity-park.webp",
+      "address": "Bank Road, Uyo",
+      "description": "A peaceful public park great for picnics, outdoor events, and photography."
+    },
+    {
+      "title": "Ibom Plaza",
+      "image": "images/ibom-plaza.webp",
+      "address": "Wellington Bassey Way, Uyo",
+      "description": "Central city square known for shopping, relaxation, and cultural activities."
+    },
+    {
+      "title": "Akwa Ibom Stadium",
+      "image": "images/stadium.webp",
+      "address": "Nsikak Eduok Ave, Uyo",
+      "description": "Modern sports arena for football matches and large-scale concerts."
+    },
+    {
+      "title": "Le Meridien Ibom Hotel",
+      "image": "images/ibom-hotel.webp",
+      "address": "Nwaniba Road, Uyo",
+      "description": "Luxury hotel and golf resort surrounded by lush rainforests."
+    },
+    {
+      "title": "National Museum of Uyo",
+      "image": "images/musuem.webp",
+      "address": "Oron Road, Uyo",
+      "description": "Explore rich history and cultural heritage of the region."
+    },
+    {
+      "title": "Ibom Air Office",
+      "image": "images/ibom-air.webp",
+      "address": "Victor Attah Intl. Airport, Uyo",
+      "description": "Visit the office of Nigeria's rising airline based in Akwa Ibom."
+    },
+    {
+      "title": "Ibom eLibrary",
+      "image": "images/elibrary.webp",
+      "address": "IBB Way, Uyo",
+      "description": "Tech-savvy library offering access to books, internet, and digital learning."
+    }
+  ]
+  

@@ -1,0 +1,54 @@
+/* Discover */
+/* === MEDIUM SCREENS (TABLET) === */
+@media screen and (min-width: 641px) {
+    /* Hero Section */
+  .hero {
+    padding-top: 60px;
+    min-height: 600px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  #myButton {
+    margin-left: 7rem;
+  }
+
+  /* Directory Grid */
+  #directory {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+  }
+
+  /* Business Card */
+  .business-card {
+    padding: 1.5rem;
+  }
+
+  /* Spotlight Section */
+  .spotlight {
+    padding: 3rem 1rem;
+    background-color: #f4f4f4;
+  }
+
+  .spotlight-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  /* Modal */
+  .modal-content {
+    width: 50%;
+    max-width: 600px;
+    padding: 2rem;
+  }
+
+  .modal-btn {
+    padding: 12px 25px;
+  }
+
+
+  }
+  

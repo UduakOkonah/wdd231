@@ -205,4 +205,21 @@
     background: var(--accent-color);
     color: white;
   }
+
+  /* Discover */
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .cards-container section {
+    padding: 1.5rem;
+  }
+
+  .cards-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .cards-container button {
+    font-size: 1.1rem;
+  }
 }
