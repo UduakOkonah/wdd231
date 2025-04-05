@@ -772,6 +772,9 @@ main.discover-grid {
   margin-bottom: 0.5rem;
   color: var(--primary-color);
 }
+.discover-grid h1{
+  color: var(--primary-color);
+}
 
 .cards-container figure {
   margin: 0.75rem 0;
