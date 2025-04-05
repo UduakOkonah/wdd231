@@ -793,7 +793,7 @@ main.discover-grid {
 /* Address and description */
 .cards-container address {
   font-style: italic;
-  color: var(--secondary-color);
+  color: #000;
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
@@ -822,7 +822,7 @@ main.discover-grid {
 
 .visitor-message {
   background-color:var(--secondary-color);
-  color: #fff;
+  color: #000;
   padding: 1rem;
   border-radius: var(--radius);
   text-align: center;
