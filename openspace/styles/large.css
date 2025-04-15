@@ -1,0 +1,52 @@
+/* Large screen styles */
+#myButton {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 5%;
+  height: 30px;
+}
+
+ul.menuLinks {
+  display: flex !important;
+  gap: 1rem;
+}
+
+ul.menuLinks li {
+  list-style: none;
+}
+
+ul.menuLinks a {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+/*Header Styling for Large Screens */
+header {
+  padding: 1.5rem 5%;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+.card-container {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.spotlight {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 2rem auto;
+}

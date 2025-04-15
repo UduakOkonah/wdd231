@@ -50,7 +50,6 @@ header {
 nav {
   background-color: var(--primary-color);
   padding: 1rem;
-
 }
 
 /*Hamburger Button */
@@ -206,7 +205,6 @@ main {
   text-align: left;
   gap: 10px;
   padding: 10px;
-  max-width: 850px;
 }
 .list-card img {
   width: 50px;
@@ -228,7 +226,7 @@ main {
 /* HOME */
 
 .hero {
-    width: 95%;
+    width: 87%;
     text-align: center;
     background: linear-gradient(rgba(12, 12, 12, 0.5), rgba(15, 15, 15, 0.5)), url("../images/hero.png");
     background-size: cover;
@@ -305,8 +303,11 @@ main {
     font-weight: bold;
     position: relative;
     animation: pulse 2s infinite;
-    color: #fff;
-    text-decoration: none;
+}
+
+.join-btn a{
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Button Pulse Effect */
@@ -630,7 +631,7 @@ form .btn:hover {
 }
 
 .membership-card button:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: white;
 }
 
@@ -833,7 +834,7 @@ main.discover-grid {
 
 /* FOOTER */
 footer {
-  background-color: var(--text-color);
+  background-color: var(--primary-color);
   color: var(--footer-text);
   text-align: center;
   font-size: 1rem;

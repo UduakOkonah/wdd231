@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Open Space Tech Community and start your tech journey with like-minded peers.">
+  <meta name="author" content="Uduakobong Lawrence Okonah">
+
+    <!-- Facebook Open Graph Meta -->
+  <meta property="og:title" content="OpenSpace Community - Join-Us">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://github.com/UduakOkonah/wdd231/tree/main/images">
+  <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/index.html">  
+  <title>Join-Us - OpenSpace Tech Community</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/small.css" media="screen and (max-width: 480px)" >
+  <link rel="stylesheet" href="styles/meduim.css" media="screen and (min-width: 481px) and (max-width: 768px)">
+  <link rel="stylesheet" href="styles/large.css" media="screen and (min-width: 769px)" >
+  
+  <link rel="icon" href="images/favicon.ico">
+  <script type="module" src="script/data.js"></script>
+  <script type="module" src="script/navigation.js"></script>
+  <script type="module" src="script/form.js"></script>
+  <script type="module" src="script/join.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img loading="lazy" src="images/logo.jpg" alt="OpenSpace">
+      <span>OpenSpace Community</span>
+    </div>
+    <nav>
+      <button id="myButton">&#9776;</button>
+      <ul class="menuLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Become a Part of Open Space</h1>
+      <p>Join our tech-driven community and unlock opportunities for learning, networking, and real-world experiences.</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Sign Up Today</h2>
+      <form id="joinForm" action="confirm.html" method="get">
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="track">Select Track:</label>
+        <select id="track" name="track" required>
+          <option value="">--Please choose--</option>
+          <option value="engineering">Engineering Track</option>
+          <option value="creative">Creative Track</option>
+          <option value="project">Project Track</option>
+        </select>
+
+        <label for="why">Why do you want to join?</label>
+        <textarea id="why" name="why" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="successMessage" class="hidden">Thank you for joining us! We'll be in touch soon.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 OpenSpace Tech Community | Uduakobong Okonah | WDD 231</p>
+    <div class="footer-column">
+      <p>Last Updated: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+</body>
+</html> 

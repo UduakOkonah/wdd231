@@ -1,0 +1,69 @@
+/* Medium screen styles */
+   /* Hero Section */
+
+  .hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  #myButton {
+    margin-left: 9rem;
+  }
+
+.mission h2 {
+  font-size: 1.8rem;
+}
+
+.mission p {
+  font-size: 1.1rem;
+}
+
+.structure h2 {
+  font-size: 2rem;
+}
+
+.card-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#how-to-begin {
+  padding: 2rem;
+}
+
+#how-to-begin h3 {
+  font-size: 1.6rem;
+}
+
+#how-to-begin ul li {
+  font-size: 1rem;
+}
+
+#spotlight h2 {
+  font-size: 2rem;
+}
+
+.spotlight-container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.learning-track-highlight {
+  height: 900px;
+}
+
+.track-content {
+  max-width: 100%;
+}
+
+.cta-btn {
+  margin-left: 7rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.track-image img {
+  max-width: 100%;
+}
+
+footer {
+  padding: 2.5rem;
+}
+  

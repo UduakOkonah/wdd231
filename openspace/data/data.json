@@ -1,0 +1,43 @@
+{
+    "howToBegin": [
+      {
+        "title": "Leadership & Admin",
+        "details": ["Core Leads: President, Vice, Secretary", "Faculty Advisors", "PR & Communication"]
+      },
+      {
+        "title": "Tech Tracks",
+        "details": ["Frontend, Backend, Mobile", "UI/UX, Cloud, Cybersecurity, Game Dev"]
+      },
+      {
+        "title": "OpenSpace Projects/Outreach",
+        "details": ["Mini startups, open-source, GitHub collaborations", "Meetups, Campus Ambassadors, Partnerships"]
+      },
+      {
+        "title": "Media & Creatives",
+        "details": ["Design, social media, branding, event visuals"]
+      }
+    ],
+    "communityHighlights": [
+      {
+        "name": "Project A",
+        "description": "A collaborative project between Open Space members.",
+        "category": "Web Development"
+      },
+      {
+        "name": "Hackathon Event",
+        "description": "A friendly competition to build tech solutions under time constraints.",
+        "category": "Competitive"
+      },
+      {
+        "name": "Game Dev Workshop",
+        "description": "A workshop to learn the basics of game development using Unity.",
+        "category": "Game Development"
+      },
+      {
+        "name": "Design for Tech",
+        "description": "A session focused on UI/UX design and its role in tech.",
+        "category": "Design"
+      }
+    ]
+  }
+  

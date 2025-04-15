@@ -67,6 +67,11 @@
     }
 
     /* List View Refinement */
+
+    .list-card{
+      align-items: center !important;
+    }
+
     .list-card img {
         width: 80px !important;
       }
@@ -81,6 +86,10 @@
       
       .list-card a{
         font-size: 1rem !important;
+      }
+
+      .hero{
+         width: 95% !important;
       }
 
     .hero-text h1 {

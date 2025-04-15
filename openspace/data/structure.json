@@ -1,0 +1,19 @@
+{
+    "team": [
+      {
+        "title": "Lead Team",
+        "description": "Coordinates activities and partnerships."
+      },
+      {
+        "title": "Mentorship",
+        "description": "One-on-one guidance from advanced members."
+      }
+    ],
+    "tracks": [
+      {
+        "title": "Learning Tracks",
+        "description": "Front-end, back-end, cloud, Game Development, UI/UX and more."
+      }
+    ]
+  }
+  
