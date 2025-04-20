@@ -5,9 +5,12 @@
     font-size: 2rem;
     margin-bottom: 12px;
   }
+  .hero {
+    width: 84%;
+  }
 
   #myButton {
-    margin-left: 9rem;
+    margin-left: 5rem;
   }
 
 .mission h2 {

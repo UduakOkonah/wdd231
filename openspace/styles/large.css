@@ -40,7 +40,7 @@ header {
   padding: 5rem;
 }
 
-.card-container {
+.card-container { 
   flex-direction: row;
   justify-content: space-around;
 }
